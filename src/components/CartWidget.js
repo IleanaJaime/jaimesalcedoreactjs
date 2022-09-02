@@ -1,2 +1,2 @@
-import "../assets/shopping-cart.png"
-import "../components/NavBar"
+import "../assets/carro.jpeg";
+import "../components/NavBar";
