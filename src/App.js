@@ -4,12 +4,12 @@ import  "./app/style.css";
 import ItemListContainer from "./components/ItemListContainer";
 
 
-const App =() =>{
+function App() {
 
-  return(
+  return (
     <div>
-      <NavBar/>
-      <ItemListContainer/>
+      <NavBar />
+      <ItemListContainer />
     </div>
   );
 }
