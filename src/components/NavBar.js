@@ -1,18 +1,18 @@
-import foto from '../assets/logosweet.jpg';
-import CartWidget from "../assets/carro.jpeg";
+import Foto from '../assets/logosweet.jpg';
+import CartWidget from "./CartWidget";
 
 
 const NavBar = () => {
 return (
     <div>
-        <img src={foto}/>
+        <img src={Foto}/>
         <ul>
             <li><a href="#">Productos</a></li>
             <li><a href="#">Importante</a></li>
             <li><a href="#">Quienes Somos</a></li>
             <li><a href="#">ComoComprar</a></li>
         </ul>
-            (<CartWidget/>)
+            <CartWidget/>
         </div>
 ) 
 }
