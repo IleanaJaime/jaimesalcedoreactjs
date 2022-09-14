@@ -2,6 +2,7 @@ import React from 'react';
 import "../App";
 import { useEffect, useState } from 'react'
 import products from '../productos.js';
+import ItemList from './ItemList'
 
 const ItemListContainer = () => {
         const [items, setItems] = useState([])
