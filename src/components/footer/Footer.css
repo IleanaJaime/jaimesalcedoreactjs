@@ -1,0 +1,13 @@
+.brandsFooter{
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands{
+    width: 50px;
+    margin-top: 10px;
+}
+
+.nav-link{
+    color: rgba(255, 0, 149, 0.987);
+}

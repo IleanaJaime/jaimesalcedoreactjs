@@ -1,6 +1,21 @@
-.material-symbols-outlined{
+.carrito{
     margin: 1%;
     padding-right: 10px;
-    color: rgba(243, 17, 156, 0.89);
-    font-size: xx-large;
+    color:pink;
+    font-size: large;
+}
+
+.btn-cart{
+    color:antiquewhite;
+    border: 'none';
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carrito:hover {
+    filter: drop-shadow(3px 3px 10px #67edff)
+}
+
+.nav-item .nav-link:hover {
+    color: rgb(253, 182, 221);
 }
